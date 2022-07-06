@@ -1,5 +1,65 @@
-.square {
-  height: 100px;
-  width: 100px;
-  border: 2px solid black;
+
+h1 {
+  text-align: center;
 }
+
+body {
+  font: 40px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+
+.square {
+  background: #fff;
+  border: 2px solid rgb(3, 0, 0);
+  float: left;
+  font-size: 150px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 620px; 
+  margin: 0 auto; 
+}
+
+/* .grid {
+  display: flex;                       /* establish flex container */
+  /* flex-wrap: wrap;                     /* enable flex items to wrap */
+  /* justify-content: space-around; */
+  
+/* }  */
+/* .cell {
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  /* height: 100px;
+  width: 620px;
+  margin-bottom: 5px;
+  background-color: #999;
+} */ 
+/* .cell:nth-child(3n) {
+  background-color: #F00;
+} */
+
+
