@@ -10,7 +10,7 @@ class App extends Component {
         xIsNext: true
     }
   }
-
+  
   handleGamePlay = (index) => {
     //alert(index)
     const {squares} = this.state
@@ -42,13 +42,17 @@ class App extends Component {
     }
     return null;
   }
+  restartGame = () => {
+    this.setState({squares: [null, null, null, null, null, null, null, null, null]})
+  }
 
 
 
   render() {
     return(
       <>
-        <h1>Tic Tac Toe</h1>
+        <h1>PLAY!</h1>
+        <h3><right><button onClick = {this.restartGame} >RESET GAME</button></right> </h3>
         <div className= 'gameboard'>{this.state.squares.map((value, index)=> {
           return(
           <Square 
@@ -60,6 +64,7 @@ class App extends Component {
           )
         })}
         </div>
+        <footer style={{color: "red"}}>~ Coded by Leo & Steven ~</footer> 
       </>
     )
   }

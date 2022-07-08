@@ -1,29 +1,28 @@
 
 h1 {
   text-align: center;
-  color: rgba(255, 0, 0, 0.684)
+  color: rgb(255, 0, 0)
 }
 
 body {
-  font: 40px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  font: 40px "Chalkduster", Futura, sans-serif;
   background-image: url('https://ui4free.com/storage/public/images/free-figma-game-tic-tac-toe_1635143619.jpg');
-  color: #FFFFFF;
 }
 
 .square {
   background: rgba(255, 255, 255, 0.5);
   border: 2px solid rgb(255, 251, 0);
   float: left;
-  font-size: 150px;
+  font-size: 135px;
   font-weight: bold;
-  line-height: 34px;
+  line-height: -34px;
   height: 200px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
   width: 200px;
+  
 }
 
 .gameboard {
@@ -32,28 +31,6 @@ body {
   width: 620px; 
   margin: 0 auto; 
 }
-/* .styleimg {
-  background-image: url(/desktop/tictoe.jpeg);
-background-repeat: no-repeat;
-width: 10px;
-height: 20px;
-} */
-
-/* .grid {
-  display: flex;                       /* establish flex container */
-  /* flex-wrap: wrap;                     /* enable flex items to wrap */
-  /* justify-content: space-around; */
-  
-/* }  */
-/* .cell {
-  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
-  /* height: 100px;
-  width: 620px;
-  margin-bottom: 5px;
-  background-color: #999;
-} */ 
-/* .cell:nth-child(3n) {
-  background-color: #F00;
-} */
 
 
+/* rgba(255, 0, 0, 0.814) */
